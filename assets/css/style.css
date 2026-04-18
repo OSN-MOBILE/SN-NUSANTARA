@@ -1,4 +1,81 @@
+/* RESET */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+/* ===================== */
+/* TOPBAR */
+/* ===================== */
+.topbar {
+  background: #e60000;
+  color: white;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding: 8px 0;
+  white-space: nowrap;
+  animation: jalan 12s linear infinite;
+}
+
+@keyframes jalan {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+/* ===================== */
+/* NAVBAR */
+/* ===================== */
+.navbar {
+  background: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo span {
+  font-weight: 600;
+  color: #333;
+}
+
+/* MENU */
+.nav-menu a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-menu a:hover {
+  color: #e60000;
 }
