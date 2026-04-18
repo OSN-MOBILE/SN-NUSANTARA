@@ -262,3 +262,82 @@ body {
   font-size: 14px;
   color: #555;
 }
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar a {
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+
+  /* HERO */
+  .hero {
+    height: 70vh;
+    padding: 20px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* PILAR */
+  .pilar {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .pilar-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* EVENT (kalau nanti kamu pakai) */
+  .event-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
