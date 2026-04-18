@@ -104,8 +104,8 @@ body {
 
 /* PILAR */
 .pilar {
-  padding: 80px 0;
-  background: #f9f9f9;
+  padding: 100px 0;
+  background: #f5f5f5;
   text-align: center;
 }
 
@@ -125,17 +125,23 @@ body {
 /* CARD */
 .card {
   background: white;
-  padding: 30px;
+  padding: 35px;
   width: 280px;
-  border-radius: 12px;
+  border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   transition: 0.3s;
   text-align: center;
+  border-top: 4px solid #c40000;
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .card h3 {
