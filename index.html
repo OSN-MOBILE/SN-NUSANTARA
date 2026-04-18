@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Sahabat Nusantara</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- RUNNING TEXT -->
+<div class="marquee">
+  <p>🔥 Selamat datang di Sahabat Nusantara | Event terbaru segera hadir | Bergabung sekarang!</p>
+</div>
+
 <!-- NAVBAR -->
 <header class="navbar">
   <div class="container nav-wrapper">
-
-    <!-- GANTI LOGO -->
-    <img src="assets/img/logo.png" class="logo">
-
+    <img src="logo.png" class="logo">
     <nav>
       <a href="#">Beranda</a>
       <a href="#">Tentang</a>
@@ -26,13 +28,10 @@
   </div>
 </header>
 
-<!-- RUNNING TEXT -->
-<div class="marquee">
-  <p>🔥 Selamat datang di Sahabat Nusantara | Event terbaru segera hadir | Bergabung sekarang dan jadi bagian perubahan!</p>
-</div>
-
 <!-- HERO -->
 <section class="hero">
+  <div class="overlay"></div>
+
   <div class="hero-content">
     <h1>Sahabat Nusantara</h1>
     <p>Bersatu, Berbagi, dan Berkarya untuk Indonesia</p>
@@ -61,42 +60,49 @@
     <div class="card">
       <div class="icon">💬</div>
       <h3>Komunikasi</h3>
-      <p>Diskusi dan berbagi informasi antar anggota.</p>
+      <p>Diskusi dan berbagi informasi.</p>
     </div>
 
     <div class="card">
       <div class="icon">🤝</div>
       <h3>Sosial</h3>
-      <p>Kegiatan sosial dan aksi nyata.</p>
+      <p>Kegiatan sosial & aksi nyata.</p>
     </div>
 
     <div class="card">
       <div class="icon">👥</div>
       <h3>Keanggotaan</h3>
-      <p>Sistem keanggotaan terstruktur.</p>
+      <p>Sistem anggota terstruktur.</p>
     </div>
   </div>
 </section>
 
 <!-- EVENT + MARKET -->
-<section class="event-market">
-  <div class="container em-grid">
+<section class="highlight">
+  <div class="container highlight-grid">
 
     <!-- EVENT -->
     <div class="event-box">
-      <h3>Event Terbaru</h3>
-      <p>Workshop Nasional & Aksi Sosial 2026</p>
-      <a href="#" class="btn primary">Lihat Detail</a>
+      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+
+      <div class="event-content">
+        <span>20 Juli 2026</span>
+        <h3>Diskusi Nasional</h3>
+        <p>Membahas peran generasi muda dalam pembangunan bangsa.</p>
+        <a href="#" class="btn primary">Lihat Event</a>
+      </div>
     </div>
 
     <!-- MARKET -->
     <div class="market-box">
       <h3>Marketplace</h3>
+      <p>Temukan produk karya anggota dari seluruh Indonesia.</p>
 
       <div class="market-item">Kaos Komunitas</div>
       <div class="market-item">Aksesoris SN</div>
       <div class="market-item">Produk UMKM</div>
 
+      <a href="#" class="btn secondary">Kunjungi</a>
     </div>
 
   </div>
@@ -104,7 +110,7 @@
 
 <!-- FOOTER -->
 <footer class="footer">
-  <p>© 2026 Sahabat Nusantara | Semua Hak Dilindungi</p>
+  <p>© 2026 Sahabat Nusantara</p>
 </footer>
 
 </body>
