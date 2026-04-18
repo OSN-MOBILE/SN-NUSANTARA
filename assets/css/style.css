@@ -79,3 +79,30 @@ body {
 .nav-menu a:hover {
   color: #e60000;
 }
+
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* HP */
+@media (max-width: 768px) {
+
+  .logo img {
+    height: 45px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+}
