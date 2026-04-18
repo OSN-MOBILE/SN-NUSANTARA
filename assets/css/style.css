@@ -9,6 +9,9 @@ body {
   background: white;
   padding: 15px 0;
   border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .container {
@@ -33,9 +36,13 @@ body {
   font-weight: 500;
 }
 
+.navbar a:hover {
+  color: red;
+}
+
 /* PILAR */
 .pilar {
-  padding: 80px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -60,8 +67,8 @@ body {
   width: 300px;
   border-radius: 15px;
   position: relative;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
 /* garis merah atas */
@@ -77,13 +84,15 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 /* ICON */
 .icon {
   font-size: 40px;
   margin-bottom: 15px;
+  transition: 0.3s;
 }
 
 /* TEXT */
@@ -95,4 +104,8 @@ body {
 .card p {
   color: #555;
   font-size: 14px;
+}
+
+.card:hover .icon {
+  transform: scale(1.2);
 }
